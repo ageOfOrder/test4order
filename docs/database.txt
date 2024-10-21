@@ -1,0 +1,34 @@
+Assumed knowledge:
+1. You know how to install and configure:
+    apache2 / httpd
+    php
+    postgres
+2. You know how to connect to the postgres database
+// here is a reminder for me
+psql -d postgres
+// list databases
+\l 
+// connect to database
+\c dbname
+// list tables
+\dt
+// get database rows
+SELECT * from table;
+
+
+Once connected ...
+// create user
+createdb dbname -U username -W password
+createdb -O username
+
+
+// create database
+
+
+
+// create tableOne - the records
+
+// create tableTwo - backing up the records
+
+
+I will add notes to alter the table as I make mistakes, for example how to set the owner of the table, how to allow read versus insert or update access, &
