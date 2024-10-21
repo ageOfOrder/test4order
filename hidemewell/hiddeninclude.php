@@ -5,5 +5,10 @@
  * and your haiku
  * 
  * */
+$tfoUser = '';
+$tfoPasswd = '';
+$tfoDbase = '';
+$tfoTableOne = '';
 
+$tfoConnect = pg_connect();
 ?>
