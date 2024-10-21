@@ -1,4 +1,6 @@
 <?php
+include('./hidemewell/hiddeninclude.php');
+include('./var/varOne.php'); // variables that all pages should possess
 echo '<html>
 <head>
 <title>';
