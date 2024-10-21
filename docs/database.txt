@@ -15,15 +15,26 @@ psql -d postgres
 // get database rows
 SELECT * from table;
 
+\du lists the roles and attributes
+
 
 Once connected ...
+// create database - example is tfodatabase
+CREATE DATABASE tfodatabase;
+
+
 // create user
-createdb dbname -U username -W password
-createdb -O username
+CREATE ROLE tfousername LOGIN;
 
+// alow the user to connect
+GRANT CONNECT ON DATABASE tfodatabase TO tfousername;
+// ALTER ROLE tfousername LOGIN;
 
-// create database
+// give user access to the database
+GRANT ALL PRIVILEGES ON DATABASE tfodatabase TO tfousername;
 
+// allow the user to connect
+GRANT CONNECT ON DATABASE tfodatabase TO tfousername WITH GRANT OPTION;
 
 
 // create tableOne - the records
@@ -32,3 +43,8 @@ createdb -O username
 
 
 I will add notes to alter the table as I make mistakes, for example how to set the owner of the table, how to allow read versus insert or update access, &
+
+
+// scratch or unused
+createdb dbname -U username -W password
+createdb -O username
