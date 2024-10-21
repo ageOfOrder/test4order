@@ -10,6 +10,9 @@ $tfoPasswd = '$BendingHectic2025!';
 $tfoDbname = 'tfdbase';
 $tfoTableOne = 'tfrecords';
 
+// psql -U tfouser -d tfdbase -W
+
+
 // https://tableplus.com/blog/2018/04/postgresql-how-to-grant-access-to-users.html
 
 // GRANT CONNECT ON DATABASE tfdbase TO tfouser;

@@ -37,6 +37,8 @@ GRANT ALL PRIVILEGES ON DATABASE tfodatabase TO tfousername;
 GRANT CONNECT ON DATABASE tfodatabase TO tfousername WITH GRANT OPTION;
 
 
+psql -U tfousername -d tfodatabase -W
+
 // create tableOne - the records
 
 // create tableTwo - backing up the records
