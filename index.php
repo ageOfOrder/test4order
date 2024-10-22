@@ -7,14 +7,11 @@ include('./var/varOne.php'); // variables that all pages should possess
 include('./var/postVar.php'); // if stuff gets posted we capture and clean it here
 include('./var/indexStates.php'); // switch statement
 
-echo '<html>
-<head>
-<title>';
-echo $tfoTitle;
-echo '</title></head>';
-echo '<body>';
+include('./handf/h.php');
+
 echo '<h1>index.php</h1>';
 echo '<p>This is a paragraph.</p>';
-echo '</body>';
-echo '</html>';
+
+include('./handf/f.php');
+
 ?>
