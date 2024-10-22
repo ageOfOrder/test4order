@@ -15,7 +15,9 @@ echo '<h1>index.php</h1>';
 echo '</div>';
 
 echo '<div class="topMenu">'; // menu buttons
-echo '<p class="debug">Index • New • Edit • Delete</p>';
+
+include('./handf/menu.php');
+
 echo '</div>'; // end topMenu
 
 echo '<div class="leftMatter">'; // start leftMatter

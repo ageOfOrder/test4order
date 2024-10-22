@@ -3,25 +3,38 @@ a.debug {
 }
 
 div {
+    /*border: solid red .06em;*/
     padding: .24em;
     margin: .06em;
 }
 div.pageTitle {
-    border: solid red .06em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
  div.topMenu {
-    border: solid red .06em;
+     display: flex;
+    /*border: solid red .06em;*/
 }
  div.leftMatter {
-    border: solid red .06em;
+    /*border: solid red .06em;*/
+     display: inline-block;
+     width: 18%;
 }
  div.indexBody {
-    border: solid red .06em;
+    /*border: solid red .06em;*/
+     display: inline-block;
+     width: 61.30%;
 }
  div.rightMatter {
-    border: solid red .06em;
+    /*border: solid red .06em;*/
+     display: inline-block;
+     width: 18%;
 }
 div.bottomBar{
-    border: solid red .06em;
+    /*border: solid red .06em;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
