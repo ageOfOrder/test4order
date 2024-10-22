@@ -2,10 +2,26 @@ a.debug {
     color: red;
 }
 
-/*pageTitle
- * topMenu
- * leftMatter
- * indexBody
- * rightMatter
- * bottomBar*/
+div {
+    padding: .24em;
+    margin: .06em;
+}
+div.pageTitle {
+    border: solid red .06em;
+}
+ div.topMenu {
+    border: solid red .06em;
+}
+ div.leftMatter {
+    border: solid red .06em;
+}
+ div.indexBody {
+    border: solid red .06em;
+}
+ div.rightMatter {
+    border: solid red .06em;
+}
+div.bottomBar{
+    border: solid red .06em;
+}
 
